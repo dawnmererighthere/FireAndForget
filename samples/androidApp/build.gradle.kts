@@ -1,6 +1,6 @@
 plugins {
-  alias(libs.plugins.kotlinMultiplatform)
   alias(libs.plugins.androidApplication)
+  alias(libs.plugins.kotlinAndroid)
 
   alias(libs.plugins.composeMultiplatform)
   alias(libs.plugins.composeCompiler)
@@ -45,13 +45,7 @@ android {
   }
 }
 
-kotlin {
-  androidTarget()
-
-  sourceSets {
-    androidMain.dependencies {
-      implementation(projects.samples.shared)
-      implementation(libs.androidx.activity.compose)
-    }
-  }
+dependencies {
+  implementation(projects.samples.shared)
+  implementation(libs.androidx.activity.compose)
 }
