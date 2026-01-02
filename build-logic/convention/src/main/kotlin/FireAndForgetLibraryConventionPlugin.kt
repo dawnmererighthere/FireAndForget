@@ -27,6 +27,9 @@ class FireAndForgetLibraryConventionPlugin : Plugin<Project> {
 
       val defaultNamespace = libs.findVersion("namespace").get().toString()
 
+      // Set Maven group ID for publishing
+      group = defaultNamespace
+
       // Configure Maven Publishing
       extensions.configure<MavenPublishBaseExtension> {
         publishToMavenCentral(validateDeployment = false)

@@ -9,7 +9,7 @@ plugins {
 kotlin {
 
   androidLibrary {
-    namespace = libs.versions.namespace.get() + "multiplatform.settings"
+    namespace = libs.versions.namespace.get() + ".multiplatform.settings"
   }
 
   sourceSets {
