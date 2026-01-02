@@ -1,4 +1,4 @@
-package com.alorma.fireandforget.mukltiplatform.settings
+package com.alorma.fireandforget.multiplatform.settings
 
 import com.alorma.fireandforget.FireAndForget
 import com.alorma.fireandforget.FireAndForgetRunner

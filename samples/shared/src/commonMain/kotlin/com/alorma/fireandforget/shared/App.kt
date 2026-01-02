@@ -14,7 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.alorma.fireandforget.FireAndForget
-import com.alorma.fireandforget.mukltiplatform.settings.SettingsFireAndForgetRunner
+import com.alorma.fireandforget.multiplatform.settings.SettingsFireAndForgetRunner
 import com.russhwolf.settings.Settings
 
 @Composable

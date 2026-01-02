@@ -126,7 +126,7 @@ class OnboardingFlag(
 The library provides a ready-to-use implementation using [russhwolf/multiplatform-settings](https://github.com/russhwolf/multiplatform-settings):
 
 ```kotlin
-import com.alorma.fireandforget.mukltiplatform.settings.SettingsFireAndForgetRunner
+import com.alorma.fireandforget.multiplatform.settings.SettingsFireAndForgetRunner
 import com.russhwolf.settings.Settings
 
 val settings = Settings()
