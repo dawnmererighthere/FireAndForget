@@ -14,7 +14,7 @@
 
 <a href="https://www.buymeacoffee.com/alorma" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-A lightweight Kotlin Multiplatform library for Compose Multiplatform that helps you execute code once on first access, with flexible state persistence options.
+A lightweight Kotlin Multiplatform library that helps you execute code once on first access, with flexible state persistence options.
 
 ## Overview
 
