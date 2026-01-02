@@ -14,11 +14,11 @@
 
 <a href="https://www.buymeacoffee.com/alorma" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-A lightweight Kotlin Multiplatform library that helps you execute code once on first access, with flexible state persistence options.
+A lightweight Kotlin Multiplatform library that helps you execute code once on first access, with flexible state persistence options. Use it in your Kotlin Multiplatform projects or natively in Android, iOS, JVM, or JavaScript applications.
 
 ## Overview
 
-FireAndForget is a simple yet powerful utility for managing one-time operations in your Kotlin Multiplatform applications. It's perfect for scenarios like:
+FireAndForget is a simple yet powerful utility for managing one-time operations in your applications. Whether you're building a Kotlin Multiplatform project or a native Android/iOS/JVM/JS app, FireAndForget provides a consistent API for one-time executions. It's perfect for scenarios like:
 
 - 🎓 First-time user onboarding flows
 - 📢 One-time feature announcements
@@ -32,9 +32,12 @@ FireAndForget is a simple yet powerful utility for managing one-time operations 
 - 🔄 **Flexible State Management**: Choose your own persistence strategy (in-memory, shared preferences, data store, etc.)
 - 🎯 **Simple API**: Three intuitive methods for complete control
 - 🌐 **True Multiplatform**: Works on Android (API 21+), iOS, Web (JS & WASM), Desktop (JVM)
+- 📱 **Use Anywhere**: Kotlin Multiplatform projects or native platform-specific code (Android, iOS, JVM, JS)
 - 🏃 **Runner Pattern**: Delegates state persistence to customizable runner implementations
 
 ## Installation
+
+### Kotlin Multiplatform
 
 Add the dependency to your `commonMain` source set:
 
@@ -49,6 +52,33 @@ kotlin {
       implementation("com.alorma.fireandforget:multiplatform-settings:$version")
     }
   }
+}
+```
+
+### Native Android (Gradle)
+
+Add the dependency to your app's `build.gradle.kts`:
+
+```kotlin
+dependencies {
+  // Core library - required
+  implementation("com.alorma.fireandforget:core:$version")
+
+  // Optional: multiplatform-settings implementation
+  implementation("com.alorma.fireandforget:multiplatform-settings:$version")
+}
+```
+
+### iOS (CocoaPods/SPM)
+
+The library can be consumed as a Kotlin/Native framework in your iOS project. Add it to your shared Kotlin module and export it to iOS.
+
+### JVM / Desktop
+
+```kotlin
+dependencies {
+  implementation("com.alorma.fireandforget:core:$version")
+  implementation("com.alorma.fireandforget:multiplatform-settings:$version")
 }
 ```
 
